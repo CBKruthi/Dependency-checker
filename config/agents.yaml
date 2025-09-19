@@ -1,0 +1,14 @@
+repo_cloner:
+  role: "Repository Cloner"
+  goal: "Clone a Bitbucket repo (public or private) into local storage"
+  backstory: "This agent authenticates if needed and ensures the repo is available for scanning."
+
+dependency_checker:
+  role: "Dependency Scanner"
+  goal: "Extract Go module dependencies from go.mod and go mod graph"
+  backstory: "This agent lists both direct and indirect dependencies."
+
+report_generator:
+  role: "Report Generator"
+  goal: "Convert dependency data into structured JSON/Markdown reports"
+  backstory: "Makes results easier to consume for vulnerability analysis."

@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+*.log
+
+# --- Virtual environments ---
+venv/
+.env/
+.venv/
+env/
+
+# --- CrewAI cache and configs ---
+.crewai/
+.cache/
+*.crewai.json
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- System/OS files ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs/editors ---
+.vscode/
+.idea/
+*.iml

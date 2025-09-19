@@ -1,0 +1,11 @@
+clone_task:
+  description: "Clone the Bitbucket repository"
+  expected_output: "Absolute path to the cloned repository"
+
+dependency_task:
+  description: "Scan repository for Go dependencies"
+  expected_output: "List of dependencies in structured format"
+
+report_task:
+  description: "Generate a JSON report from dependency scan"
+  expected_output: "Path to report.json"
